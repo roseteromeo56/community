@@ -1,5 +1,10 @@
 name: Issue and Project Templated Discussions
 
+permissions:
+  contents: read
+  discussions: write
+  repository-projects: read
+
 on:
   discussion:
     types: [created]
