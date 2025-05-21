@@ -4,6 +4,10 @@ on:
   discussion:
     types: [created]
 
+permissions:
+  contents: read
+  discussions: write
+
 jobs:
   label-copilot-discussion:
     runs-on: ubuntu-latest
