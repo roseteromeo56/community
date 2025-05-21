@@ -4,6 +4,10 @@ on:
   discussion:
     types: [created]
 
+permissions:
+  discussions: write
+  contents: read
+
 jobs:
   label-templated-discussion:
     runs-on: ubuntu-latest
