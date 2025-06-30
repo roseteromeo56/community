@@ -1,6 +1,9 @@
 # This is a basic workflow that is manually triggered
 
 name: Recategorize labeled discussions
+permissions:
+  contents: read
+  discussions: write
 
 permissions:
   contents: read
