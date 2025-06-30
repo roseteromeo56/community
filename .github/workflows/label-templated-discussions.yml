@@ -5,8 +5,13 @@ on:
     types: [created]
 
 permissions:
+ alert-autofix-5
   discussions: write
   contents: read
+
+  contents: read
+  discussions: write
+ alert-autofix-5
 
 jobs:
   label-templated-discussion:
